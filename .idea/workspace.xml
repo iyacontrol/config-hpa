@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="109a7ca0-8b66-4ad1-8a71-9aa2fe8913ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/crds/confighpa_v1beta1_confighpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/crds/confighpa_v1beta1_confighpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/confighpa/group.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/confighpa/group.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/confighpa/v1beta1/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/confighpa/v1beta1/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/apis/confighpa/v1beta1/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/apis/confighpa/v1beta1/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/manager" beforeDir="false" afterPath="$PROJECT_DIR$/bin/manager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/controller/chpa/chpa_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/controller/chpa/chpa_controller.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -14,5 +14,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Package confighpas contains autoscalers API versions
+// Package confighpa contains autoscalers API versions
 package confighpa

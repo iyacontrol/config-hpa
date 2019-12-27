@@ -23,7 +23,7 @@ spec:
           properties:
             downscaleForbiddenWindowSeconds:
               format: int32
-              maximum: 600
+              maximum: 3600
               minimum: 1
               type: integer
             maxReplicas:
@@ -69,7 +69,7 @@ spec:
               type: number
             upscaleForbiddenWindowSeconds:
               format: int32
-              maximum: 600
+              maximum: 3600
               minimum: 1
               type: integer
           required:

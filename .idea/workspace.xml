@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="109a7ca0-8b66-4ad1-8a71-9aa2fe8913ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/manager" beforeDir="false" afterPath="$PROJECT_DIR$/bin/manager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/controller/chpa/chpa_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/controller/chpa/chpa_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/mainfest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/mainfest.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

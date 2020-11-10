@@ -254,7 +254,7 @@ func (r *ReconcileCHPA) reconcileCHPA(chpa *chpav1beta1.ConfigHpa) (err error) {
 			return err
 		}
 	}
-	currentReplicas := currentScale.Status.Replicas
+	currentReplicas := currentScale.Spec.Replicas
 	log.Printf("-> deploy: {%v/%v replicas:%v}\n", chpa.Namespace, chpa.Spec.ScaleTargetRef.Name, currentReplicas)
 	chpaStatusOriginal := chpa.Status.DeepCopy()
 
@@ -525,8 +525,8 @@ func setCHPADefaults(chpa *chpav1beta1.ConfigHpa) {
 	}
 }
 func checkCHPAValidity(chpa *chpav1beta1.ConfigHpa) error {
-	if ok := chpa.Spec.ScaleTargetRef.Kind == "Deployment" || chpa.Spec.ScaleTargetRef.Kind == "StatefulSet"; !ok {
-		msg := fmt.Sprintf("configurable chpa doesn't support %s kind, use Deployment or  instead", chpa.Spec.ScaleTargetRef.Kind)
+	if ok := chpa.Spec.ScaleTargetRef.Kind == "Deployment" || chpa.Spec.ScaleTargetRef.Kind == "StatefulSet" || chpa.Spec.ScaleTargetRef.Kind == "CloneSet"; !ok {
+		msg := fmt.Sprintf("configurable chpa doesn't support %s kind, use Deployment, StatefulSet or  CloneSet  instead", chpa.Spec.ScaleTargetRef.Kind)
 		log.Printf(msg)
 		return fmt.Errorf(msg)
 	}
